@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab4_ToDo</string>
+    <string name="Allclose"><![CDATA[<]]></string>
+    <string name="backTo">&lt;</string>
+    <string name="add_task">+</string>
+    <string name="hint_test">Название<font color='#FF0000'>*</font></string>
+    <string name="add_text">Добавить</string>
+    <string name="toDo_list">Список дел</string>
+    <string name="task_name">Задача</string>
+    <string name="add_new_task">Добавить задачу</string>
+    <string name="done">Выполнить</string>
+    <string name="task_name_card">Название</string>
+    <string name="task_body_card">Описание</string>
+</resources>

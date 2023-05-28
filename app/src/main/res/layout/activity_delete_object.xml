@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DeleteTask">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+<!--        <Button-->
+<!--            android:id="@+id/close_button1"-->
+<!--            android:layout_width="69dp"-->
+<!--            android:layout_height="76dp"-->
+<!--            android:layout_marginTop="21dp"-->
+<!--            android:layout_marginBottom="25dp"-->
+<!--            android:background="@android:drawable/ic_menu_revert"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="40dp" />-->
+        <TextView
+            android:id="@+id/close_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:text="@string/backTo"
+            android:textColor="@color/green"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/task_name"
+            android:textColor="@color/norm_black"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:hint="@string/hint_test"
+        android:paddingVertical="15dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/norm_black"
+        android:textColorHint="@color/norm_black"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/add_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:hint="Описание"
+        android:paddingVertical="15dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/norm_black"
+        android:textColorHint="@color/norm_black"
+        android:enabled="false"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/complete_button"-->
+<!--            android:layout_width="190dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:backgroundTint="#4CAF50"-->
+<!--            android:text="Выполнить" />-->
+<!--    </LinearLayout>-->
+    <Button
+        android:id="@+id/complete_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/green"
+        android:text="@string/done" />
+
+</LinearLayout>
